@@ -7,28 +7,32 @@ ___
 ### **Модуль "Layout Type"**
 ___
 #### Linear Layout
-![[Linear Layout.png]]
+![Linear Layout](https://github.com/user-attachments/assets/c13a3bde-78a0-4544-a6c1-ee6da9e5730a)
+
 #### Table Layout
-![[Table Layout.png]]
+![Table Layout](https://github.com/user-attachments/assets/ead1befd-3fbe-4760-b13c-4b79cf50e798)
+
 #### Constraint Layout
-![[Constraint Layout.png]]
+![Constraint Layout](https://github.com/user-attachments/assets/28ad4ffa-d795-415f-895e-4e13942c0f9a)
+
 
 ### **Модуль "Control Lesson 1"**
 ---
 #### activity_main.xml
-![[control lesson.png]]
+![control lesson](https://github.com/user-attachments/assets/85bd4c5b-2396-4cbf-8c19-bb2c0b592648)
 
 #### activity_second.xml
 ##### Портретная ориентация экрана
-![[Портретная ориентация.png]]
+![Портретная ориентация](https://github.com/user-attachments/assets/a9167fda-9498-4013-8778-99ff4dad2942)
+
 ##### Горизонтальная ориентация экрана
-![[Горизонтальная ориентация.png]]
+![Горизонтальная ориентация](https://github.com/user-attachments/assets/fbb28a38-0e55-4856-bb96-d83b7ad1e60c)
 
 ### **Модуль "Button Сlicker"**
 ---
-![[Pasted image 20250405181054.png]]
+![Pasted image 20250405181054](https://github.com/user-attachments/assets/2e181c5c-9306-4e4e-9dd4-c765db85aa37)
 
-![[Pasted image 20250405181121.png]]
+![Pasted image 20250405181121](https://github.com/user-attachments/assets/e35f5d2d-e33b-48af-ae97-b18e0621a3f3)
 
 ##### Код в MainActivity.java
 ``` java
