@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "Lesson4"
 include(":app")
 include(":thread")
+include(":data_thread")
