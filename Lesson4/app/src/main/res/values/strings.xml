@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lesson4</string>
+    <string name="player_previous">&lt;&lt;</string>
+    <string name="player_next">&gt;&gt;</string>
+    <string name="player_play">Play</string>
+    <string name="track_title_placeholder">Название трека</string>
+    <string name="artist_placeholder">Исполнитель</string>
+</resources>
