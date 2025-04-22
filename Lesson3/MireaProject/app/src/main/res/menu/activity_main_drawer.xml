@@ -25,5 +25,9 @@
             android:id="@+id/webViewFragment"
             android:icon="@android:drawable/ic_menu_send"
             android:title="Browser" />
+        <item
+            android:id="@+id/backgroundTaskFragment"
+            android:icon="@android:drawable/ic_menu_upload"
+            android:title="Background Task" />
     </group>
 </menu>
