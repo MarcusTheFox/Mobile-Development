@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MicrophoneFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Измеритель уровня звука"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonStartMonitoring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Начать мониторинг"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/textViewSoundLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Уровень: N/A"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginBottom="16dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarSoundLevel"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="32767" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".HardwareFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Аппаратные возможности"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/buttonSensorTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Датчики: Плоскомер" />
+
+    <Button
+        android:id="@+id/buttonCameraTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Камера: Фото-заметка" />
+
+    <Button
+        android:id="@+id/buttonMicrophoneTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Микрофон: Измеритель шума"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

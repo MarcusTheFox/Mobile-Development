@@ -37,4 +37,34 @@
         android:name="ru.mirea.Bublikov.mireaproject.BackgroundTaskFragment"
         android:label="Background Task"
         tools:layout="@layout/fragment_background_task" />
+    <fragment
+        android:id="@+id/hardwareFragment"
+        android:name="ru.mirea.Bublikov.mireaproject.HardwareFragment"
+        android:label="fragment_hardware"
+        tools:layout="@layout/fragment_hardware">
+        <action
+            android:id="@+id/action_hardwareFragment_to_sensorFragment"
+            app:destination="@id/sensorFragment" />
+        <action
+            android:id="@+id/action_hardwareFragment_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
+        <action
+            android:id="@+id/action_hardwareFragment_to_microphoneFragment"
+            app:destination="@id/microphoneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="ru.mirea.Bublikov.mireaproject.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/microphoneFragment"
+        android:name="ru.mirea.Bublikov.mireaproject.MicrophoneFragment"
+        android:label="fragment_microphone"
+        tools:layout="@layout/fragment_microphone" />
+    <fragment
+        android:id="@+id/sensorFragment"
+        android:name="ru.mirea.Bublikov.mireaproject.SensorFragment"
+        android:label="fragment_sensor"
+        tools:layout="@layout/fragment_sensor" />
 </navigation>

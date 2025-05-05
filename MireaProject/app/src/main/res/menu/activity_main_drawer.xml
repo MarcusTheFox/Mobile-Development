@@ -29,5 +29,9 @@
             android:id="@+id/backgroundTaskFragment"
             android:icon="@android:drawable/ic_menu_upload"
             android:title="Background Task" />
+        <item
+            android:id="@+id/hardwareFragment"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="Hardware" />
     </group>
 </menu>
