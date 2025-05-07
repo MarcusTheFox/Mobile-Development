@@ -67,4 +67,14 @@
         android:name="ru.mirea.Bublikov.mireaproject.SensorFragment"
         android:label="fragment_sensor"
         tools:layout="@layout/fragment_sensor" />
+    <fragment
+        android:id="@+id/fileManagerFragment"
+        android:name="ru.mirea.Bublikov.mireaproject.FileManagerFragment"
+        android:label="fragment_file_manager"
+        tools:layout="@layout/fragment_file_manager" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.mirea.Bublikov.mireaproject.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>

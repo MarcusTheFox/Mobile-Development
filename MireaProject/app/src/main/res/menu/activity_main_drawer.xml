@@ -33,5 +33,13 @@
             android:id="@+id/hardwareFragment"
             android:icon="@android:drawable/ic_menu_preferences"
             android:title="Hardware" />
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Профиль" />
+        <item
+            android:id="@+id/fileManagerFragment"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Файловый менеджер" />
     </group>
 </menu>
