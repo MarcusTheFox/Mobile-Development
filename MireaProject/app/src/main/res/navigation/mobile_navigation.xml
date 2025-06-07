@@ -77,4 +77,9 @@
         android:name="ru.mirea.Bublikov.mireaproject.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/networkDataFragment"
+        android:name="ru.mirea.Bublikov.mireaproject.NetworkDataFragment"
+        android:label="fragment_network_data"
+        tools:layout="@layout/fragment_network_data" />
 </navigation>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "713495453139",
+    "project_id": "lesson7-firebase-d5365",
+    "storage_bucket": "lesson7-firebase-d5365.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713495453139:android:fe63f37eee36146248a326",
+        "android_client_info": {
+          "package_name": "ru.mirea.Bublikov.mireaproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALf-7bGUIlpGou-loUTi5vA8fJAp28Hr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713495453139:android:68b183b4a6dfabbb48a326",
+        "android_client_info": {
+          "package_name": "ru.mirea.bublikov.firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALf-7bGUIlpGou-loUTi5vA8fJAp28Hr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -41,5 +41,9 @@
             android:id="@+id/fileManagerFragment"
             android:icon="@android:drawable/ic_menu_manage"
             android:title="Файловый менеджер" />
+        <item
+            android:id="@+id/networkDataFragment"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Данные из сети" />
     </group>
 </menu>
